@@ -1,1 +1,72 @@
 1) How would you define Machine Learning?
+Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without
+being explicitly programmed.
+Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves.
+The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions 
+in the future based on the examples that we provide. The primary aim is to allow the computers learn automatically without human intervention or assistance and adjust 
+actions accordingly.
+
+2) What are the differences between Supervised and Unsupervised Learning? Specify example 3 algorithms for each of these
+In a supervised learning model, the algorithm learns on a labeled dataset, providing an answer key that the algorithm can use to evaluate its accuracy on training data.
+An unsupervised model, in contrast, provides unlabeled data that the algorithm tries to make sense of by extracting features and patterns on its own.
+Some popular examples of supervised machine learning algorithms are:
+
+Linear regression for regression problems.
+Random forest for classification and regression problems.
+Support vector machines for classification problems.
+
+Some popular examples of unsupervised learning algorithms are:
+
+k-means for clustering problems.
+Apriori algorithm for association rule learning problems.
+
+3) What are the test and validation set, and why would you want to use them?
+A validation dataset is a sample of data held back from training your model that is used to give an estimate of model skill while tuning model’s hyperparameters.
+The validation dataset is different from the test dataset that is also held back from the training of the model, 
+but is instead used to give an unbiased estimate of the skill of the final tuned model when comparing or selecting between final models
+
+4) What are the main preprocessing steps? Explain them in detail. Why we need to prepare our data?
+Gathering Data
+Preparing the Data
+Choosing Models
+Training
+Evaluation
+Hyperparameter Tuning
+Prediction
+Model Selection
+
+1) Gathering Data¶
+After the problem definition, we need to obtain data which will be appropriate for our case. The quality and quantity of data that you gather will directly determine how
+good our predictive model can be.
+
+2) Preparing the Data
+Data preparation, where we load our data into a suitable place and prepare it for use in our machine learning training. This is also a good time to do any pertinent 
+visualizations of your data, 
+to help you see if there are any relevant relationships between different variables you can take advantage of, as well as show you if there are any data imbalances.
+
+Exploratory Data Analysis (EDA)
+Exploratory Data Analysis refers to the critical process of performing initial investigations on data so as to discover patterns,to spot anomalies,to test hypothesis and 
+to check assumptions with the help of summary statistics and graphical representations.
+
+Pre-Processing
+Duplicate Values
+In most cases, the duplicates are removed so as to not give that particular data object an advantage or bias, when running machine learning algorithms.
+
+Imbalanced Data
+An Imbalanced dataset is one where the number of instances of a class(es) are significantly higher than another class(es), 
+thus leading to an imbalance and creating rarer class(es).
+
+5) How you can explore countionus and discrete variables?
+What is a Discrete Variable?
+Discrete variables are countable in a finite amount of time. For example, you can count the change in your pocket. You can count the money in your bank account.
+You could also count the amount of money in everyone’s bank accounts.
+It might take you a long time to count that last item, but the point is—it’s still countable.
+
+What is a Continuous Variable?
+Continuous Variables would (literally) take forever to count. In fact, you would get to “forever” and never finish counting them.
+For example, take age. You can’t count “age”. Why not? Because it would literally take forever. For example, you could be:
+25 years, 10 months, 2 days, 5 hours, 4 seconds, 4 milliseconds, 8 nanoseconds, 99 picosends…and so on.
+
+6) Analyse the plot given below. (What is the plot and variable type, check the distribution and make comment about how you can preproccess it.)
+
+Numercial continous variable scatter plot.Slightly right skewed.Normalization
